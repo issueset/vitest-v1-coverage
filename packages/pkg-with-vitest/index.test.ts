@@ -1,7 +1,6 @@
-import { describe, expect, it } from 'vitest'
+import { expect, it } from "vitest";
+import { add } from "./index";
 
-describe('should', () => {
-  it('exported', () => {
-    expect(1).toEqual(1)
-  })
-})
+it("can add", () => {
+  expect(add(1, 1)).toEqual(2);
+});

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "packageManager": "pnpm@8.10.0",
   "scripts": {
-    "test:istanbul": "vitest run --coverage.enabled --coverage.provider=istanbul",
-    "test:v8": "vitest run --coverage.enabled --coverage.provider=v8"
+    "test:istanbul": "vitest run --coverage.enabled --coverage.provider=istanbul --coverage.all=false",
+    "test:v8": "vitest run --coverage.enabled --coverage.provider=v8 --coverage.all=false"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.8",
